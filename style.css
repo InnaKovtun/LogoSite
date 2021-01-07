@@ -10,6 +10,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+p{
+    font-size: 18px;
+}
+
 .header-content{
     display: flex;
     align-items: center;
@@ -38,13 +42,10 @@
 .ss-nav-button{
     width: 160px;
     height: 20%;
-
     background-color: #F6C823; 
     color: #00539F; 
     text-align: center;
     border-radius: 5px;
-
-
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 50px;
@@ -91,4 +92,138 @@
 
 .slick-dots > li.slick-active{
     background: #898989;
+}
+
+.cards-block{
+    margin: 60px 0 60px 0;
+}
+
+.section-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #4f4f4f;
+    margin-bottom: 30px;
+}
+
+.card{
+    border-radius: 5px;
+    border: none;
+}
+
+.card-section{
+    text-align: center;   
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+.card-img{
+    margin-top: 2em;
+}
+
+.card-title{
+    margin-top: 2em;
+    font-size: 1.1em;
+    margin-top: 2em;
+    color: #4f4f4f;
+    font-weight: 700;
+}
+
+.card-subtitle{
+    font-size: 1em;
+    color: #4F4F4F;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 2em;
+}
+
+.pseudo-line{
+    width: 100%;
+    border-bottom: solid 2px #5a5a5a;
+    content: " ";
+    left: 0;
+    top: 50%;
+}
+
+.card-link{
+    display: block;
+    text-decoration: none;
+    color: #00539F;
+    background-color: #F6C823;
+    margin: 2em 0 2em 0;
+    padding: 0.5em 6em 0.5em 6em;
+    border-radius: 5px;
+}
+
+.card-link:hover{
+    background-color: #00539F;
+    color: #F6C823;
+}
+
+.gallery-section{
+    display: block;
+    margin: 0px auto 0px auto;
+   
+}
+
+.gallery-text-section{
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    max-width: 60%;
+}
+
+.gallery-image{
+    margin: 0px auto 0px auto;
+}
+
+.footer{
+    background-color: #063267;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 40%;
+    margin: 2em auto;
+}
+
+.contact-text{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+    color: #F7C823;
+    margin-bottom: 2em;
+}
+
+.contact-name,
+.contact-phone,
+#wpcf7-f5-o1 > form > div.footer-contact > input{
+    max-width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+}
+
+.contact-phone{
+   color: black;
+   font-weight: 700;
+}
+
+#wpcf7-f5-o1 > form > div.footer-contact > input{
+    background-color: #F6C823;
+    padding: 15px 50px 15px 50px;
+    width: 20em;
+    color: #00539F;
 }
